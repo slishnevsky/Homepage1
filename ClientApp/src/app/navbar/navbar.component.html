@@ -1,0 +1,35 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form navbar-left">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search..." size="40" #box (keyup)="onKey($event)" autofocus>
+                    <ul *ngIf="items" class="suggestions list-group">
+                        <li *ngFor="let item of items" [class]="item.active?'list-group-item active':'list-group-item'" (mouseover)="onMouseOver($event)" (click)="onClick($event, box)">{{item.text}}</li>
+                    </ul>
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-success" (click)="onEnter(box.value)">Искать</button>
+                    </span>
+                </div>
+            </form>
+            <span class="navbar-text">{{ translation }}</span>
+            <form class="navbar-form navbar-right">
+                <button class="btn btn-danger" (click)="isSignedIn?signOut():signIn();">{{isSignedIn?'Выйти':'Войти'}}</button>
+            </form>
+            <div class="navbar-brand navbar-right">
+                <span>{{currentDate.date}}&nbsp;</span>
+                <span style="color: tomato">{{currentDate.time}}</span>
+            </div>
+        </div>
+    </div>
+</nav>

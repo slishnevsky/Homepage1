@@ -1,0 +1,41 @@
+<div class="panel">
+  <div class="panel-body">
+    <table class="table">
+      <thead>
+        <tr>
+          <th colspan="7" class="text-center">
+            <!-- <button class="btn btn-xs pull-left" (click)="prevMonth()">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </button> -->
+            {{title}}
+            <!-- <button class="btn btn-xs pull-right" (click)="nextMonth()">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </button> -->
+          </th>
+        </tr>
+      </thead>
+      <thead>
+        <tr>
+          <th *ngFor="let dayName of dayNames" [style.width.%]="100/7" class="text-center">{{dayName}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let week of weeks">
+          <td *ngFor="let day of week" class="text-center">
+            <div [class]="day.today?'today':day.event?'event':day.other?'other':day.weekend?'weekend':''"
+              [style.background-color]="day.event?day.event.backgroundColor:''">{{day.date.getDate()}}</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div *ngIf="events" class="panel">
+  <div class="list-group">
+    <a *ngFor="let event of events" class="list-group-item text-overflow" href="{{event.htmlLink}}" target="_blank">
+      <span class="label" [style.background-color]="event.backgroundColor">{{event.startTime|date:'MMM dd'}}</span>
+      {{event.title }}
+      <span *ngIf="!event.allDay"> - {{event.startTime|date:'h:mm a'}}</span>
+    </a>
+  </div>
+</div>

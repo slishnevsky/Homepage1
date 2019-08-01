@@ -1,0 +1,21 @@
+<div *ngIf="bookmarks">
+    <ul class="nav nav-tabs" data-tabs="tabs">
+        <li class="{{i==0?'active':''}}" *ngFor="let folder of bookmarks | keyvalue; let i = index">
+            <a href="#{{folder.key}}" data-toggle="tab">{{folder.key}}</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div id="{{folder.key}}" class="tab-pane list-group {{i==0?'active':''}}" *ngFor="let folder of bookmarks | keyvalue; let i = index">
+            <div class="panel">
+                <div class="list-group">
+                    <a class="list-group-item text-overflow" *ngFor="let items of folder.value" href="{{items.flyer ? items.flyer : items.link}}" target="_blank">
+                        <!-- <a *ngIf="items.flyer" href="{{items.link}}" class="btn btn-xs btn-default pull-right" target="_blank">Сайт</a> -->
+                        <!-- <a *ngIf="items.flyer" href="{{items.link}}" class="label label-primary pull-right" target="_blank">Сайт</a> -->
+                        <img class="favicon" src="https://www.google.com/s2/favicons?domain={{items.link}}" />
+                        {{items.title}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

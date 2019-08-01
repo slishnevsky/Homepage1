@@ -1,0 +1,53 @@
+/* 
+  Primary: #337AB7
+  Success: #5CB85C
+  Danger: #D9534F
+  Info: #5BC0DE
+  Warning: #F0AD4E 
+*/
+
+@media (min-width: 768px) { }
+@media (min-width: 992px) { .col2, .col4 { padding-left: 0px; } }
+@media (min-width: 1200px){ .col2, .col3, .col4 { padding-left: 0px; } }
+
+* { border: none !important; border-radius: 0px !important; text-decoration: none !important; box-shadow: none !important; outline: none !important; }
+
+body { background-color: #666; padding-top: 65px; color: #EEE !important; }
+
+a { color: #EEE !important; }
+
+.navbar-inverse               { background-color: #222; }
+.navbar-left { margin-left: -13px; }
+.form-control { height: auto; }
+
+.btn { border-radius: 2px !important; }
+.input-group .form-control:first-child { border-radius: 2px 0px 0px 2px !important; }
+.input-group-btn:last-child > .btn { margin-left: 0px; border-radius: 0px 2px 2px 0px !important; }
+.alert { color: #EEE; background-color: #222; margin-bottom: 15px; }
+
+.panel { margin-bottom: 15px !important; border: 2px solid #222 !important; }
+.panel-body { background-color: #444 !important; }
+.list-group-item { background-color: #444 !important; }
+.list-group-item:hover { background-color: #333 !important; }
+
+.panel-success { background-color: #5CB85C !important; }
+.panel-success .list-group-item { background-color: #5CB85C !important; }
+.panel-success .list-group-item:hover { background-color: #449D44 !important; }
+
+.table { margin-bottom: 0px; table-layout: fixed; }
+.favicon { background-color: white; border: 1px solid #EEE !important; margin-right: 10px; border-radius: 50% !important; float: left; }
+.text-overflow { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.nav-tabs > li { margin-bottom: 2px; } 
+.nav-tabs > li > a { background-color: #333; border: 2px solid #222 !important; }
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus { background-color: #444; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { background-color: #444; }
+
+.table td div { padding: 4px; margin: -4px; border-radius: 2px !important; }
+.table .today { background-color: #337AB7 !important; }
+.table .weekend { background-color: #555; }
+.table .other { color: #666 !important; }
+.label { padding: 4px 8px; min-width: 60px; font-size: 12px !important; font-weight: normal; border-radius: 2px !important; float: right; }
+
+.suggestions { position: fixed; margin-top: 32px; margin-left: -2px; cursor: pointer; border: 2px solid #222 !important; }
+.suggestions .list-group-item.active { background-color: #337AB7 !important; }

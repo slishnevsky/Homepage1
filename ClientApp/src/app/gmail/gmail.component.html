@@ -1,0 +1,8 @@
+<div *ngIf="messages" class="panel panel-success">
+  <div class="list-group">
+    <a *ngFor="let message of messages" class="list-group-item" href="https://mail.google.com/mail/u/0/#inbox/{{message.id}}" target="_blank">
+      <div>{{message.from}}</div>
+      <div>{{message.subject}}</div>
+    </a>
+  </div>
+</div>

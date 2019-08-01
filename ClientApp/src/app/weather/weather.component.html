@@ -1,0 +1,30 @@
+<div *ngIf="items" class="panel">
+  <div class="panel-body">
+    <table class="table">
+      <thead>
+        <tr>
+          <th *ngFor="let item of items" nowrap width="{{100 / items.length}}%" class="text-center">
+            {{ item.day }}
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td *ngFor="let item of items" class="text-center">
+            <div [innerHTML]="item.image"></div>
+          </td>
+        </tr>
+        <tr>
+          <td *ngFor="let item of items" class="text-center">
+            <strong>{{ item.temperature }}</strong>
+          </td>
+        </tr>
+        <tr>
+          <td *ngFor="let item of items" class="text-center">
+            {{ item.condition }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
