@@ -1,5 +1,6 @@
 <div *ngIf="items" class="panel">
   <div class="list-group">
+    <a href="{{url}}" class="list-group-item active" target="_blank">{{title}}</a>
     <a *ngFor="let item of items" class="list-group-item" href="{{item.links[0].uri}}" target="_blank">{{item.title.text}}</a>
   </div>
 </div>

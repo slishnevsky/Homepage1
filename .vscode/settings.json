@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/1556f6f4-7da1-4bc6-90a0-8b06e55412c2/resourceGroups/slishnevsky/providers/Microsoft.Web/sites/slishnevsky"
+}

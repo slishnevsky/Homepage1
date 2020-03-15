@@ -35,7 +35,7 @@
     <a *ngFor="let event of events" class="list-group-item text-overflow" href="{{event.htmlLink}}" target="_blank">
       <span class="label" [style.background-color]="event.backgroundColor">{{event.startTime|date:'MMM dd'}}</span>
       {{event.title }}
-      <span *ngIf="!event.allDay"> - {{event.startTime|date:'h:mm a'}}</span>
+      <span *ngIf="!event.allDay"> @ {{event.startTime|date:'h:mm a'}}</span>
     </a>
   </div>
 </div>

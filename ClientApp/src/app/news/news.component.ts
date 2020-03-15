@@ -9,6 +9,8 @@ import { AppService } from '../app.service';
 
 export class NewsComponent implements OnInit {
   @Input() source: string;
+  @Input() title: string;
+  @Input() url: string;
   items: any[];
 
   constructor(private service: AppService) { }
