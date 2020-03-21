@@ -24,10 +24,10 @@ a { color: #DDD !important; }
 .input-group .form-control:first-child { border-radius: 2px 0px 0px 2px !important; }
 .input-group-btn:last-child > .btn { margin-left: 0px; border-radius: 0px 2px 2px 0px !important; }
 
-.panel { margin-bottom: 15px !important; border: 2px solid #333 !important; }
+.panel { margin-bottom: 15px !important; border: 2px solid #333 !important; border-radius: 4px !important;}
 .panel-body { background-color: #444 !important; padding: 8px; }
 .list-group-item { background-color: #444 !important; padding: 8px 12px; margin-bottom: 0px; border-bottom: 1px solid #555 !important; }
-app-news .list-group-item:first-child { background-color: #333333 !important; }
+app-news .list-group-item:first-child { background-color: #333 !important; }
 .list-group-item:last-child { border-bottom: 0px !important; }
 .list-group-item:hover { background-color: #333 !important; }
 
@@ -35,10 +35,12 @@ app-news .list-group-item:first-child { background-color: #333333 !important; }
 .favicon { background-color: white; border: 1px solid #EEE !important; margin-right: 10px; border-radius: 50% !important; float: left; }
 .text-overflow { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-.nav > li { margin-bottom: 2px; } 
-.nav > li > a { background-color: #333; padding: 8px 12px; border: 2px solid #333 !important; }
-.nav > li > a:hover, .nav-tabs > li > a:focus { background-color: #444; }
-.nav > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { background-color: #444; }
+.nav-tabs { margin-bottom: -2px; } 
+.nav-tabs > li { margin-bottom: 0px; } 
+.nav-tabs > li > a { background-color: #555; padding: 8px 12px; border: 2px solid #333 !important; border-radius: 4px 4px 0px 0px !important;  }
+.nav-tabs > li.active > a { border-bottom: 2px solid #444 !important; }
+.nav-tabs > li > a:hover { background-color: #444; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { background-color: #444; }
 
 .table td div { padding: 4px; margin: -4px; border-radius: 2px !important; }
 .table .today { background-color: #337AB7 !important; }
