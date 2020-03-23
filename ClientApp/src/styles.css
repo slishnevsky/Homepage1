@@ -37,7 +37,7 @@ app-news .list-group-item:first-child { background-color: #333 !important; }
 
 .nav-tabs { margin-bottom: -2px; } 
 .nav-tabs > li { margin-bottom: 0px; } 
-.nav-tabs > li > a { background-color: #555; padding: 8px 12px; border: 2px solid #333 !important; border-radius: 4px 4px 0px 0px !important;  }
+.nav-tabs > li > a { background-color: #555; padding: 8px 12px; border: 2px solid #333 !important; border-radius: 4px 4px 0px 0px !important; margin-right: 4px; }
 .nav-tabs > li.active > a { border-bottom: 2px solid #444 !important; }
 .nav-tabs > li > a:hover { background-color: #444; }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { background-color: #444; }
