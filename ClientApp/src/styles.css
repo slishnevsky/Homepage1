@@ -12,7 +12,7 @@
 
 * { border: none !important; border-radius: 0px !important; text-decoration: none !important; box-shadow: none !important; outline: none !important; }
 
-body { background-color: #666; padding-top: 65px; color: #DDD !important; }
+body { background-color: red; padding-top: 65px; color: #DDD !important; }
 
 a { color: #DDD !important; }
 
