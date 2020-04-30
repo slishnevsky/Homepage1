@@ -26,7 +26,7 @@
     "@types/gapi.client.gmail": "^1.0.1",
     "bootstrap": "^3.4.1",
     "core-js": "^2.6.5",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "rxjs": "~6.3.3",
     "zone.js": "^0.8.29"
   },
