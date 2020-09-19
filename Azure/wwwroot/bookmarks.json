@@ -1,0 +1,179 @@
+﻿{
+    "Магазины": [
+        {
+            "title": "No Frills - Продуктовый Магазин",
+            "link": "http://www.nofrills.ca",
+            "flyer": "http://flyers.smartcanucks.ca/no-frills-canada"
+        },
+        {
+            "title": "Fresh Co - Продуктовый Магазин",
+            "link": "http://www.freshco.com",
+            "flyer": "https://flyers.smartcanucks.ca/freshco-chalo-freshco-canada"
+        },
+        {
+            "title": "Yummy Market - Продуктовый Магазин",
+            "link": "http://www.yummymarket.com",
+            "flyer": "http://flyers.smartcanucks.ca/yummy-market-canada"
+        },
+        {
+            "title": "Coppas - Продуктовый Магазин",
+            "link": "http://www.coppas.com",
+            "flyer": "http://flyers.smartcanucks.ca/coppas-fresh-market-canada"
+        },
+        {
+            "title": "Superstore - Продуктовый Магазин",
+            "link": "http://www.superstore.ca",
+            "flyer": "http://flyers.smartcanucks.ca/real-canadian-superstore-canada"
+        },
+        {
+            "title": "Walmart - Продуктовый Магазин",
+            "link": "http://www.walmart.ca",
+            "flyer": "http://flyers.smartcanucks.ca/walmart-canada"
+        },
+        {
+            "title": "Shoppers Drugmart - Магазин Косметики",
+            "link": "http://www.shoppersdrugmart.ca",
+            "flyer": "http://flyers.smartcanucks.ca/shoppers-drug-mart-canada"
+        },
+        {
+            "title": "Homedepot - Магазин Хозтоваров",
+            "link": "http://www.homedepot.ca",
+            "flyer": "http://flyers.smartcanucks.ca/home-depot-canada"
+        },
+        {
+            "title": "Canadian Tire - Магазин Хозтоваров",
+            "link": "http://www.canadiantire.ca",
+            "flyer": "http://flyers.smartcanucks.ca/canadian-tire-canada"
+        },
+        {
+            "title": "Best Buy - Магазин Электроники",
+            "link": "http://www.bestbuy.ca",
+            "flyer": "http://flyers.smartcanucks.ca/best-buy-canada"
+        },
+        {
+            "title": "Amazon.ca - Онлайн Магазин",
+            "link": "http://www.amazon.ca",
+            "flyer": "https://www.amazon.ca/gp/goldbox/"
+        }
+    ],
+    "Сервисы": [
+        {
+            "title": "Canada Revenue Agency",
+            "link": "http://www.cra-arc.gc.ca/menu-eng.html"
+        },
+        {
+            "title": "Service Canada (Programs for Canadians)",
+            "link": "http://www.servicecanada.gc.ca/eng/home.shtml"
+        },
+        {
+            "title": "Service Ontario (Ontario Provincial Services)",
+            "link": "http://www.ontario.ca/government/services"
+        },
+        {
+            "title": "City of Vaughan (Residential Services)",
+            "link": "https://www.vaughan.ca/"
+        },
+        {
+            "title": "TD EasyWeb (TD Online Banking)",
+            "link": "https://easyweb.td.com/"
+        },
+        {
+            "title": "Disera Medical Centre (Family Doctor and Labs)",
+            "link": "http://www.diseramedical.com/en/contact"
+        },
+        {
+            "title": "Allstate Insurance (Home and Auto Insurance)",
+            "link": "http://www.allstate.ca/"
+        },
+        {
+            "title": "Alectra Utilities (Home Electricity)",
+            "link": "https://www.powerstream.ca/"
+        },
+        {
+            "title": "PowerStream Energy Services (Condo)",
+            "link": "http://www.powerstreamenergy.com/"
+        },
+        {
+            "title": "Enbridge (Home Gas Services)",
+            "link": "https://www.enbridgegas.com/"
+        },
+        {
+            "title": "Coextro (Condo Internet Services)",
+            "link": "https://coextro.freshbooks.com/home"
+        },
+        {
+            "title": "TekSavvy (Home Internet Services)",
+            "link": "http://www.teksavvy.com/"
+        },
+        {
+            "title": "Fido (Mobile Phone Services)",
+            "link": "https://www.fido.ca/"
+        },
+        {
+            "title": "VOIP.ms (VOIP Phone Services)",
+            "link": "http://voip.ms/"
+        }
+    ],
+    "Работа": [
+        {
+            "title": "Stack Overflow Community",
+            "link": "http://stackoverflow.com/"
+        },
+        {
+            "title": "Pluralsight Video Tutorials",
+            "link": "https://app.pluralsight.com/library/"
+        },
+        {
+            "title": "ASP.NET Documentation",
+            "link": "https://docs.microsoft.com/en-us/aspnet/overview/"
+        },
+        {
+            "title": "ASP.NET Core Documentation",
+            "link": "https://docs.microsoft.com/en-us/aspnet/core/"
+        },
+        {
+            "title": "Angular Documentation",
+            "link": "https://angular.io/guide/quickstart"
+        },
+        {
+            "title": "Angular CLI Documentation",
+            "link": "https://angular.io/cli"
+        },
+        {
+            "title": "AngularJS Documentation",
+            "link": "https://docs.angularjs.org/guide/"
+        },
+        {
+            "title": "TypeScript - Typed JavaScript Compiler",
+            "link": "http://www.typescriptlang.org/"
+        },
+        {
+            "title": "Visual Studio Code - Powerful Code Editor",
+            "link": "https://code.visualstudio.com/docs/"
+        },
+        {
+            "title": "Bootstrap Web Design Framework",
+            "link": "http://getbootstrap.com/"
+        },
+        {
+            "title": "jQuery Javascript Framework",
+            "link": "http://jquery.com/"
+        },
+        {
+            "title": "Google API Console",
+            "link": "https://console.developers.google.com/"
+        },
+        {
+            "title": "Google API Client Libraries",
+            "link": "https://developers.google.com/api-client-library/"
+        },
+        {
+            "title": "Google Gmail API",
+            "link": "https://developers.google.com/gmail/api/guides/"
+        },
+        {
+            "title": "Google Calendar API",
+            "link": "https://developers.google.com/calendar/overview"
+        }
+    ]
+}
